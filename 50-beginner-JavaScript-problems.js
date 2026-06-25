@@ -66,3 +66,8 @@ console.log(number1 + number2);
 // 13. Ask for a person's age and display it.
 let userAge = prompt("Enter your age:");
 console.log("Your age is " + userAge);
+
+// 14. Ask for a temperature in Celsius and convert it to Fahrenheit.
+let celsius = Number(prompt("Enter Celsius temperature:"));
+let fahrenheit = (celsius * 9/5) + 32;
+console.log(fahrenheit);
