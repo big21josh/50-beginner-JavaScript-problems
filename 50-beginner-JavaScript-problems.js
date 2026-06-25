@@ -94,3 +94,86 @@ if (evenOdd % 2 === 0) {
 } else {
     console.log("Odd");
 }
+
+// 18. Compare two numbers and print the larger one.
+let x = 20;
+let y = 15;
+
+if (x > y) {
+    console.log(x);
+} else {
+    console.log(y);
+}
+
+// 19. Check whether a person is eligible to vote (18+).
+let votingAge = 20;
+
+if (votingAge >= 18) {
+    console.log("Eligible to vote");
+} else {
+    console.log("Not eligible");
+}
+
+// 20. Determine whether a student passed (50 or above).
+let mark = 65;
+
+if (mark >= 50) {
+    console.log("Passed");
+} else {
+    console.log("Failed");
+}
+
+// 21. Check whether a year is a leap year.
+let year = 2024;
+
+if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
+    console.log("Leap Year");
+} else {
+    console.log("Not Leap Year");
+}
+
+// 22. Determine whether a number is divisible by 5.
+let divisible = 25;
+
+if (divisible % 5 === 0) {
+    console.log("Divisible by 5");
+} else {
+    console.log("Not divisible by 5");
+}
+
+// 23. Assign grades.
+let score = 85;
+
+if (score >= 90) {
+    console.log("A");
+} else if (score >= 80) {
+    console.log("B");
+} else if (score >= 70) {
+    console.log("C");
+} else {
+    console.log("Fail");
+}
+
+// 24. Check whether a character is a vowel.
+let character = "a";
+
+if ("aeiouAEIOU".includes(character)) {
+    console.log("Vowel");
+} else {
+    console.log("Not a vowel");
+}
+
+// 25. Determine whether three sides can form a triangle.
+let side1 = 5;
+let side2 = 6;
+let side3 = 7;
+
+if (
+    side1 + side2 > side3 &&
+    side1 + side3 > side2 &&
+    side2 + side3 > side1
+) {
+    console.log("Triangle can be formed");
+} else {
+    console.log("Triangle cannot be formed");
+}
