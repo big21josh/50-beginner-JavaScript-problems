@@ -390,3 +390,30 @@ for (let i = 1; i <= 5; i++) {
     console.log(row);
 }
 
+// 46. Create an array of five fruits and print it.
+let fruits = ["Apple", "Banana", "Orange", "Mango", "Grapes"];
+console.log(fruits);
+
+// 47. Print the first element of an array.
+console.log(fruits[0]);
+
+// 48. Print the last element of an array.
+console.log(fruits[fruits.length - 1]);
+
+// 49. Loop through an array and print each item.
+for (let i = 0; i < fruits.length; i++) {
+    console.log(fruits[i]);
+}
+
+// 50. Find the largest number in an array.
+let numbers = [10, 25, 5, 90, 45];
+
+let largest = numbers[0];
+
+for (let i = 1; i < numbers.length; i++) {
+    if (numbers[i] > largest) {
+        largest = numbers[i];
+    }
+}
+
+console.log("Largest number:", largest);
