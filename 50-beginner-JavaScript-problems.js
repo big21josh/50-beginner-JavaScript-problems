@@ -177,3 +177,51 @@ if (
 } else {
     console.log("Triangle cannot be formed");
 }
+
+// 26. Check if a number lies between 1 and 100.
+let num = 50;
+
+if (num >= 1 && num <= 100) {
+    console.log("Number is between 1 and 100");
+} else {
+    console.log("Number is outside the range");
+}
+
+// 27. Determine if a user can log in (correct username and password).
+let username = "admin";
+let password = "1234";
+
+if (username === "admin" && password === "1234") {
+    console.log("Login Successful");
+} else {
+    console.log("Login Failed");
+}
+
+// 28. Check whether a person qualifies for a driving license (18+ and has ID).
+let age = 20;
+let hasID = true;
+
+if (age >= 18 && hasID) {
+    console.log("Qualifies for driving license");
+} else {
+    console.log("Does not qualify");
+}
+
+// 29. Determine whether a number is divisible by both 3 and 5.
+let number = 30;
+
+if (number % 3 === 0 && number % 5 === 0) {
+    console.log("Divisible by both 3 and 5");
+} else {
+    console.log("Not divisible by both");
+}
+
+// 30. Check whether a year is a century year.
+let year = 2000;
+
+if (year % 100 === 0) {
+    console.log("Century Year");
+} else {
+    console.log("Not a Century Year");
+}
+
