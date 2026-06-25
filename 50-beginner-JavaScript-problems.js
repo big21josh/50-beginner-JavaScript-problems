@@ -75,3 +75,13 @@ console.log(fahrenheit);
 // 15. Ask for a number and display its square.
 let squareNum = Number(prompt("Enter a number:"));
 console.log(squareNum ** 2);
+
+
+// 16. Determine whether a number is positive or negative.
+let num = -5;
+
+if (num >= 0) {
+    console.log("Positive");
+} else {
+    console.log("Negative");
+}
