@@ -57,3 +57,8 @@ console.log(average);
 // 11. Ask the user for their name and greet them.
 let userName = prompt("Enter your name:");
 console.log("Hello " + userName);
+
+// 12. Ask for two numbers and display their sum.
+let number1 = Number(prompt("Enter first number:"));
+let number2 = Number(prompt("Enter second number:"));
+console.log(number1 + number2);
