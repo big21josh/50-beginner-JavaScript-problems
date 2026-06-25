@@ -71,3 +71,7 @@ console.log("Your age is " + userAge);
 let celsius = Number(prompt("Enter Celsius temperature:"));
 let fahrenheit = (celsius * 9/5) + 32;
 console.log(fahrenheit);
+
+// 15. Ask for a number and display its square.
+let squareNum = Number(prompt("Enter a number:"));
+console.log(squareNum ** 2);
