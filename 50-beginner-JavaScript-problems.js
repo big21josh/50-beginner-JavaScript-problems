@@ -44,3 +44,12 @@ let b = 20;
 
 console.log(a);
 console.log(b)
+
+
+// 10. Calculate the average of three numbers.
+const n1 = 10;
+const n2 = 20;
+const n3 = 30;
+
+const average = (n1 + n2 + n3) / 3;
+console.log(average);
