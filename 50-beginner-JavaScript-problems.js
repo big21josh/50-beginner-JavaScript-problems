@@ -85,3 +85,12 @@ if (num >= 0) {
 } else {
     console.log("Negative");
 }
+
+// 17. Determine whether a number is even or odd.
+let evenOdd = 7;
+
+if (evenOdd % 2 === 0) {
+    console.log("Even");
+} else {
+    console.log("Odd");
+}
