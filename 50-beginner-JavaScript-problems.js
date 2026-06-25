@@ -22,3 +22,9 @@ console.log(num1 + num2);
 // 5. Store your favorite color and print a sentence using it.
 const favoriteColor = "Black";
 console.log(`My favorite color is ${favoriteColor}`);
+
+// 6. Create variables for first name and last name and combine them.
+const firstName = "Joshua";
+const lastName = "Mabharani";
+console.log(firstName + " " + lastName);
+
