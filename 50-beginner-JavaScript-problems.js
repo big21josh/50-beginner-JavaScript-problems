@@ -225,3 +225,59 @@ if (year % 100 === 0) {
     console.log("Not a Century Year");
 }
 
+// 31. Print numbers from 1 to 10.
+for (let i = 1; i <= 10; i++) {
+    console.log(i);
+}
+
+// 32. Print numbers from 10 down to 1.
+for (let i = 10; i >= 1; i--) {
+    console.log(i);
+}
+
+// 33. Print all even numbers between 1 and 20.
+for (let i = 1; i <= 20; i++) {
+    if (i % 2 === 0) {
+        console.log(i);
+    }
+}
+
+// 34. Print the multiplication table of 5.
+for (let i = 1; i <= 10; i++) {
+    console.log(`5 x ${i} = ${5 * i}`);
+}
+
+// 35. Calculate the sum of numbers from 1 to 100.
+let sum = 0;
+
+for (let i = 1; i <= 100; i++) {
+    sum += i;
+}
+
+console.log(sum);
+
+// 36. Calculate the factorial of a number.
+let factorial = 1;
+let n = 5;
+
+for (let i = 1; i <= n; i++) {
+    factorial *= i;
+}
+
+console.log(factorial);
+
+// 37. Count how many numbers are divisible by 3 between 1 and 50.
+let count = 0;
+
+for (let i = 1; i <= 50; i++) {
+    if (i % 3 === 0) {
+        count++;
+    }
+}
+
+console.log(count);
+
+// 38. Print the first 10 multiples of 7.
+for (let i = 1; i <= 10; i++) {
+    console.log(7 * i);
+}
