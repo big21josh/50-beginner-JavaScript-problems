@@ -39,3 +39,8 @@ console.log(number);
 // 9. Swap the values of two variables.
 let a = 10;
 let b = 20;
+
+[a, b] = [b, a];
+
+console.log(a);
+console.log(b)
