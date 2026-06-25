@@ -35,3 +35,7 @@ console.log(17 % 3);
 const str = "25";
 const number = Number(str);
 console.log(number);
+
+// 9. Swap the values of two variables.
+let a = 10;
+let b = 20;
