@@ -13,3 +13,12 @@ const length = 10;
 const width = 5;
 const area = length * width;
 console.log(area);
+
+// 4. Store two numbers and print their sum.
+const num1 = 15;
+const num2 = 25;
+console.log(num1 + num2);
+
+// 5. Store your favorite color and print a sentence using it.
+const favoriteColor = "Black";
+console.log(`My favorite color is ${favoriteColor}`);
