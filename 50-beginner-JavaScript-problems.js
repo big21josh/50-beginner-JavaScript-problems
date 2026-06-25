@@ -281,3 +281,112 @@ console.log(count);
 for (let i = 1; i <= 10; i++) {
     console.log(7 * i);
 }
+
+// 39. Print a pattern:
+/*
+*
+**
+***
+****
+*****
+*/
+
+for (let i = 1; i <= 5; i++) {
+    console.log("*".repeat(i));
+}
+
+// 40. Print all numbers between 1 and 100 that are divisible by both 3 and 5.
+for (let i = 1; i <= 100; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+        console.log(i);
+    }
+}
+
+// 41. Print:
+/*
+11111
+22222
+33333
+44444
+55555
+*/
+
+for (let i = 1; i <= 5; i++) {
+    let row = "";
+
+    for (let j = 1; j <= 5; j++) {
+        row += i;
+    }
+
+    console.log(row);
+}
+
+// 42. Print:
+/*
+*****
+*****
+*****
+*****
+*****
+*/
+
+for (let i = 1; i <= 5; i++) {
+    let row = "";
+
+    for (let j = 1; j <= 5; j++) {
+        row += "*";
+    }
+
+    console.log(row);
+}
+
+// 43. Print:
+/*
+1
+12
+123
+1234
+12345
+*/
+
+for (let i = 1; i <= 5; i++) {
+    let row = "";
+
+    for (let j = 1; j <= i; j++) {
+        row += j;
+    }
+
+    console.log(row);
+}
+
+// 44. Print:
+/*
+54321
+5432
+543
+54
+5
+*/
+
+for (let i = 5; i >= 1; i--) {
+    let row = "";
+
+    for (let j = 5; j >= 6 - i; j--) {
+        row += j;
+    }
+
+    console.log(row);
+}
+
+// 45. Print a 5×5 multiplication table.
+
+for (let i = 1; i <= 5; i++) {
+    let row = "";
+
+    for (let j = 1; j <= 5; j++) {
+        row += (i * j) + "\t";
+    }
+
+    console.log(row);
+}
+
