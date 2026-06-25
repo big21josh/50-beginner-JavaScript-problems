@@ -62,3 +62,7 @@ console.log("Hello " + userName);
 let number1 = Number(prompt("Enter first number:"));
 let number2 = Number(prompt("Enter second number:"));
 console.log(number1 + number2);
+
+// 13. Ask for a person's age and display it.
+let userAge = prompt("Enter your age:");
+console.log("Your age is " + userAge);
