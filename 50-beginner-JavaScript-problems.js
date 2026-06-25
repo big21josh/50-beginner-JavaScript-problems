@@ -53,3 +53,7 @@ const n3 = 30;
 
 const average = (n1 + n2 + n3) / 3;
 console.log(average);
+
+// 11. Ask the user for their name and greet them.
+let userName = prompt("Enter your name:");
+console.log("Hello " + userName);
