@@ -416,4 +416,43 @@ for (let i = 1; i < numbers.length; i++) {
     }
 }
 
+
+// #1 FOR EACH LOOP
 console.log("Largest number:", largest);
+
+
+const numbers =[5,10,15,20,25];
+numbers.forEach(function(number){
+    console.log(number);
+});
+
+//#2 FOR EACH LOOP
+const names = ["Alice", "Bob", "Charlie", "David"];
+names.forEach(function(name){
+    console.log(name);
+});
+
+//#3 FOR EACH LOOP
+
+const fruits = ["Apple", "Banana", "Orange"];
+fruits.forEach(function(fruit){
+    console.log(fruit.toUpperCase());
+});
+
+//#4 FOR EACH LOOP
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8,];
+numbers.forEach(function(number)
+{
+    console.log(number.valueOf);
+});
+
+//#5 FOR EACH LOOP
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8,];
+numbers.forEach(function(number)
+{
+    console.log(numbers.length);
+});
+
+//#6 find 
