@@ -492,3 +492,13 @@ const marks = [34, 56, 78, 45, 90, 50];
 let passed = 0;
 marks.forEach(m => { if(m >= 50) passed++; });
 console.log(passed); // 4
+
+// 14. Print all duplicate values
+const numbers = [1, 2, 3, 2, 4, 5, 1];
+const seen = [];
+const dups = [];
+numbers.forEach(n => {
+  if(seen.includes(n) &&!dups.includes(n)) dups.push(n);
+  else seen.push(n);
+});
+dups.forEach(d => console.log(d)); // 2, 1
