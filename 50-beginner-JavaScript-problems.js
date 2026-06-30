@@ -441,3 +441,9 @@ const arr = [2, 4, 6, 8, 10];
 let count = 0;
 arr.forEach(() => count++);
 console.log(count); // 5
+
+// 6. Largest number
+const numbers = [12, 45, 7, 89, 23];
+let max = numbers[0];
+numbers.forEach(n => { if(n > max) max = n; });
+console.log(max); // 89
