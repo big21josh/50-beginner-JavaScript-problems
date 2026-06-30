@@ -465,3 +465,9 @@ const vowels = ["a", "e", "i", "o", "u"];
 let vowelCount = 0;
 letters.forEach(l => { if(vowels.includes(l)) vowelCount++; });
 console.log(vowelCount); // 4
+
+// 10. New array with doubled numbers
+const numbers = [1, 2, 3, 4, 5];
+const doubled = [];
+numbers.forEach(n => doubled.push(n * 2));
+console.log(doubled); // [2, 4, 6, 8, 10]
