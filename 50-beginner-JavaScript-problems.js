@@ -418,82 +418,81 @@ for (let i = 1; i < numbers.length; i++) {
 
 //ForEach loops
 
-// 1. Print every number
+// 52. Print every number
 const numbers = [5, 10, 15, 20, 25];
 numbers.forEach(n => console.log(n));
 
-// 2. Print every name
+// 53. Print every name
 const names = ["Alice", "Bob", "Charlie", "David"];
 names.forEach(name => console.log(name));
 
-// 3. Print each fruit in uppercase
+// 54  . Print each fruit in uppercase
 const fruits = ["apple", "banana", "orange"];
 fruits.forEach(fruit => console.log(fruit.toUpperCase()));
 
-// 4. Sum of all numbers
+// 55. Sum of all numbers
 const numbers = [2, 4, 6, 8, 10];
 let sum = 0;
 numbers.forEach(n => sum += n);
 console.log(sum); // 30
 
-// 5. Count items with forEach
+// 56. Count items with forEach
 const arr = [2, 4, 6, 8, 10];
 let count = 0;
 arr.forEach(() => count++);
 console.log(count); // 5
 
-// 6. Largest number
+// 57. Largest number
 const numbers = [12, 45, 7, 89, 23];
 let max = numbers[0];
 numbers.forEach(n => { if(n > max) max = n; });
 console.log(max); // 89
 
-// 7. Count even numbers
+// 58. Count even numbers
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
 let evenCount = 0;
 numbers.forEach(n => { if(n % 2 === 0) evenCount++; });
 console.log(evenCount); // 4
 
-// 8. Names starting with "A"
+// 59. Names starting with "A"
 const names = ["Alice", "Bob", "Andrew", "Charlie", "Amy"];
 names.forEach(name => { if(name.startsWith("A"))
  console.log(name); });
 
- // 9. Count vowels in letters
+// 60. Count vowels in letters
 const letters = ["a", "b", "e", "g", "i", "o", "u"];
 const vowels = ["a", "e", "i", "o", "u"];
 let vowelCount = 0;
 letters.forEach(l => { if(vowels.includes(l)) vowelCount++; });
 console.log(vowelCount); // 4
 
-// 10. New array with doubled numbers
+// 61. New array with doubled numbers
 const numbers = [1, 2, 3, 4, 5];
 const doubled = [];
 numbers.forEach(n => doubled.push(n * 2));
 console.log(doubled); // [2, 4, 6, 8, 10]
 
 
-
-// 11. Average of numbers
+// 62. Average of numbers
 const numbers = [10, 20, 30, 40];
 let total = 0;
 numbers.forEach(n => total += n);
 const avg = total / numbers.length;
 console.log(avg); // 25
 
-// 12. Longest word
+// 63. Longest word
 const words = ["cat", "elephant", "dog", "giraffe"];
 let longest = "";
 words.forEach(w => { if(w.length > longest.length) longest = w; });
 console.log(longest); // "elephant"
 
-// 13. Count students passed >= 50
+// 64. Count students passed >= 50
 const marks = [34, 56, 78, 45, 90, 50];
 let passed = 0;
 marks.forEach(m => { if(m >= 50) passed++; });
 console.log(passed); // 4
 
-// 14. Print all duplicate values
+// 65. Print all duplicate values
 const numbers = [1, 2, 3, 2, 4, 5, 1];
 const seen = [];
 const dups = [];
@@ -503,7 +502,7 @@ numbers.forEach(n => {
 });
 dups.forEach(d => console.log(d)); // 2, 1
 
-// 15. Count word frequency
+// 66. Count word frequency
 const words = ["apple", "banana", "apple", "orange", "banana", "apple"];
 const freq = {};
 words.forEach(w => { freq[w] = (freq[w] || 0) + 1; });
