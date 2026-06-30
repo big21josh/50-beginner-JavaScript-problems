@@ -429,3 +429,9 @@ names.forEach(name => console.log(name));
 // 3. Print each fruit in uppercase
 const fruits = ["apple", "banana", "orange"];
 fruits.forEach(fruit => console.log(fruit.toUpperCase()));
+
+// 4. Sum of all numbers
+const numbers = [2, 4, 6, 8, 10];
+let sum = 0;
+numbers.forEach(n => sum += n);
+console.log(sum); // 30
