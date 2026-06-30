@@ -425,3 +425,7 @@ numbers.forEach(n => console.log(n));
 // 2. Print every name
 const names = ["Alice", "Bob", "Charlie", "David"];
 names.forEach(name => console.log(name));
+
+// 3. Print each fruit in uppercase
+const fruits = ["apple", "banana", "orange"];
+fruits.forEach(fruit => console.log(fruit.toUpperCase()));
