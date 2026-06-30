@@ -502,3 +502,9 @@ numbers.forEach(n => {
   else seen.push(n);
 });
 dups.forEach(d => console.log(d)); // 2, 1
+
+// 15. Count word frequency
+const words = ["apple", "banana", "apple", "orange", "banana", "apple"];
+const freq = {};
+words.forEach(w => { freq[w] = (freq[w] || 0) + 1; });
+console.log(freq); // {apple: 3, banana: 2, orange: 1}
