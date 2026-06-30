@@ -480,3 +480,9 @@ let total = 0;
 numbers.forEach(n => total += n);
 const avg = total / numbers.length;
 console.log(avg); // 25
+
+// 12. Longest word
+const words = ["cat", "elephant", "dog", "giraffe"];
+let longest = "";
+words.forEach(w => { if(w.length > longest.length) longest = w; });
+console.log(longest); // "elephant"
