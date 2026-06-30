@@ -447,3 +447,21 @@ const numbers = [12, 45, 7, 89, 23];
 let max = numbers[0];
 numbers.forEach(n => { if(n > max) max = n; });
 console.log(max); // 89
+
+// 7. Count even numbers
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+let evenCount = 0;
+numbers.forEach(n => { if(n % 2 === 0) evenCount++; });
+console.log(evenCount); // 4
+
+// 8. Names starting with "A"
+const names = ["Alice", "Bob", "Andrew", "Charlie", "Amy"];
+names.forEach(name => { if(name.startsWith("A"))
+ console.log(name); });
+
+ // 9. Count vowels in letters
+const letters = ["a", "b", "e", "g", "i", "o", "u"];
+const vowels = ["a", "e", "i", "o", "u"];
+let vowelCount = 0;
+letters.forEach(l => { if(vowels.includes(l)) vowelCount++; });
+console.log(vowelCount); // 4
