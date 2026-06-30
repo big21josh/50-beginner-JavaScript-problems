@@ -486,3 +486,9 @@ const words = ["cat", "elephant", "dog", "giraffe"];
 let longest = "";
 words.forEach(w => { if(w.length > longest.length) longest = w; });
 console.log(longest); // "elephant"
+
+// 13. Count students passed >= 50
+const marks = [34, 56, 78, 45, 90, 50];
+let passed = 0;
+marks.forEach(m => { if(m >= 50) passed++; });
+console.log(passed); // 4
