@@ -471,3 +471,12 @@ const numbers = [1, 2, 3, 4, 5];
 const doubled = [];
 numbers.forEach(n => doubled.push(n * 2));
 console.log(doubled); // [2, 4, 6, 8, 10]
+
+
+
+// 11. Average of numbers
+const numbers = [10, 20, 30, 40];
+let total = 0;
+numbers.forEach(n => total += n);
+const avg = total / numbers.length;
+console.log(avg); // 25
