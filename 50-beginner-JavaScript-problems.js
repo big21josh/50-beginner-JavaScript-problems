@@ -421,3 +421,7 @@ for (let i = 1; i < numbers.length; i++) {
 // 1. Print every number
 const numbers = [5, 10, 15, 20, 25];
 numbers.forEach(n => console.log(n));
+
+// 2. Print every name
+const names = ["Alice", "Bob", "Charlie", "David"];
+names.forEach(name => console.log(name));
