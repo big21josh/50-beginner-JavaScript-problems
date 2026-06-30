@@ -435,3 +435,9 @@ const numbers = [2, 4, 6, 8, 10];
 let sum = 0;
 numbers.forEach(n => sum += n);
 console.log(sum); // 30
+
+// 5. Count items with forEach
+const arr = [2, 4, 6, 8, 10];
+let count = 0;
+arr.forEach(() => count++);
+console.log(count); // 5
